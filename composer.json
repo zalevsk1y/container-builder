@@ -1,0 +1,22 @@
+{
+"name":"zalevsk1y/container-builder",
+"description": "Container Builder, provides a simple implementation of a Dependency Injection Container. It allows for easy management of object instances and their dependencies, allowing for more flexible and maintainable code. The module includes methods for adding definition files, retrieving instances, and calling methods on instances with specified arguments. This can help improve code organization and reduce coupling between classes, leading to a more robust and scalable application.",
+"type": "library",
+"license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ContainerBuilder": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Evgeny Zalevsky"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.3"
+    }
+    
+}
