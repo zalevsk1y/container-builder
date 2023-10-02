@@ -64,7 +64,7 @@ class DI implements ContainerInterface
         $dep_args = [];
         foreach ($dependences as $dep_item) {
 
-            if (in_array($dep_item, $this->instancesArray)) {
+            if (in_array($dep_item, $this->instancesArray,true)) {
                 array_push($dep_args, $this->instancesArray[$dep_item]);
             } else if ($this->isInstanceableDependece($dep_item)) {
                 $this->hasDependency($dep_item);
