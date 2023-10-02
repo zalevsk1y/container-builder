@@ -1,0 +1,15 @@
+
+vendor/*
+
+
+# logs
+/logs
+
+
+
+# testing
+/coverage
+
+composer.lock
+
+

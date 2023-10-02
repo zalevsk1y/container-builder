@@ -78,7 +78,11 @@ class DI implements ContainerInterface
     }
     protected function isInstanceableDependece($dep_item)
     {
-        return class_exists($dep_item);
+        if(is_string($dep_item)){
+            return class_exists($dep_item);
+        } else {
+            return false;
+        }
     }
     protected function hasDependency($dep_item)
     {
