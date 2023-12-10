@@ -54,4 +54,5 @@ $result = $container->call([$instance, 'methodName'], [$arg1, $arg2, ...]);
 In this example, config.php is the configuration file that contains the definitions of the classes and their dependencies. The addDefinitions method is used to load the definitions, and the get method is used to get an instance of the ClassName class. The call method is used to call the methodName method of the ClassName instance and pass the arguments $arg1, $arg2, etc.
 
 
+Thank you 🙏 for support - [Atlant Web Agency](https://www.atlant-web.com/).
 
